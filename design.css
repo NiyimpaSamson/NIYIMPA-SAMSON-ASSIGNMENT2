@@ -6,15 +6,40 @@ text{
     color: rgb(255, 255, 255);
 }
 video{
-    width: 200px;
+    width: 400px;
+    border-radius: 20px;
 }
 h1{
     color: red;
 }
+h3{
+    color: yellow;
+}
 img{
     width: 400px;
+  
+    border-radius: 20px;
 }
 h2{
     
         color: red;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.two div{
+    padding-left: 20px;
+    
+}
+
+ul li a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: red;
 }
